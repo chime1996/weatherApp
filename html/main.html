@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Weatherly🌫☁ | Sure Guide</title>
+  </head>
+  <body>
+    <div class="weather-container">
+      <div class="weather-container--div">
+        <div class="weather--main">
+          <div class="weather--search">
+            <input
+              type="text"
+              class="weather--search-input"
+              placeholder="Search for cities"
+            />
+            <button>Search</button>
+          </div>
+
+          <div class="weather--city-details">
+            <div class="city-text">
+              <h1 class="city-text--header">City-Name</h1>
+              <h1 class="city--text-temp">Temperature</h1>
+            </div>
+
+            <img
+              class="weather-icon"
+              src=""
+              alt="Weather Icon"
+              style="display: none; width: 100px; height: 100px"
+            />
+          </div>
+
+          <h4 class="weather-conditions">Other Conditions</h4>
+          <div class="weather-info">
+            <div class="rain">
+              <div class="header-rain">
+                <h3 class="chances">Chance Of Rain</h3>
+              </div>
+
+              <h4 class="percent">0%</h4>
+            </div>
+
+            <div class="wind">
+              <div class="header-wind">
+                <h3 class="chances-wind">Wind</h3>
+              </div>
+
+              <h4 class="percent-wind">0km/h</h4>
+            </div>
+
+            <div class="cloud">
+              <div class="cloud div">
+                <h3 class="cloud-header">Cloud</h3>
+              </div>
+              <h4 class="cloud-percent">0km/h</h4>
+            </div>
+          </div>
+        </div>
+        <div class="hourly-forcast">
+          <p class="today">Today's forecast</p>
+          <div class="forecast-item">
+            <p>
+              6:00 AM
+              <img
+                src="https://openweathermap.org/img/wn/01d@2x.png"
+                alt="Sunny"
+              />
+              Sunny
+            </p>
+            <hr />
+          </div>
+          <div class="forecast-item">
+            <p>
+              9:00 AM
+              <img
+                src="https://openweathermap.org/img/wn/02d@2x.png"
+                alt="Partly Cloudy"
+              />
+              Partly Cloudy
+            </p>
+            <hr />
+          </div>
+          <div class="forecast-item">
+            <p>
+              12:00 PM
+              <img
+                src="https://openweathermap.org/img/wn/03d@2x.png"
+                alt="Cloudy"
+              />
+              Cloudy
+            </p>
+            <hr />
+          </div>
+          <div class="forecast-item">
+            <p>
+              3:00 PM
+              <img
+                src="https://openweathermap.org/img/wn/04d@2x.png"
+                alt="Overcast"
+              />
+              Overcast
+            </p>
+            <hr />
+          </div>
+          <div class="forecast-item">
+            <p>
+              6:00 PM
+              <img
+                src="https://openweathermap.org/img/wn/09d@2x.png"
+                alt="Rain"
+              />
+              Rain
+            </p>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/weather.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>

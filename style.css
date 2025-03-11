@@ -1,0 +1,259 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080a0b;
+  line-height: 1.5;
+  color: #eaebeb;
+}
+
+/*Container*/
+.container {
+  max-width: 98rem;
+  height: 45rem;
+  background-color: #111517;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem;
+  margin-top: 11rem;
+  border-radius: 18px;
+}
+
+/*Container Div*/
+.container-div {
+  display: flex;
+  align-items: center;
+  gap: 24rem;
+}
+
+/*Image Div*/
+.container-image--div {
+  background-color: #262f33;
+  max-width: 85rem;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+
+.image-div--img {
+  max-width: 35rem;
+}
+
+/*Text Div*/
+.container-text--div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-img {
+  max-width: 7rem;
+  margin-bottom: 1.2rem;
+}
+.header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  margin-bottom: 0.8rem;
+}
+.header-secondary {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+.btn {
+  border: none;
+  display: inline-block;
+  width: 16rem;
+  margin: 4rem;
+  padding: 1rem;
+  border-radius: 18px;
+  background-color: #6082b6;
+  font-weight: 200;
+  color: #cfdae9;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 3px 3px 3px rgba(144, 168, 204, 0.315);
+}
+
+/* Main Menu Css*/
+
+.weather-container {
+  padding: 2rem;
+  background-color: #111517;
+  margin: 5rem;
+}
+.weather-container--div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.5rem;
+}
+
+/* Search */
+.weather--search {
+  margin-top: 2rem;
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+.weather--search-input {
+  border-radius: 5px;
+  width: 35rem;
+  border: none;
+  outline: none;
+  padding: 1.5rem;
+  font-size: 2.2rem;
+  font-family: monospace;
+  text-transform: uppercase;
+  background-color: #262f33;
+  color: #cfdae9;
+  font-weight: 600;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  padding: 2rem;
+  margin-right: 2rem;
+  margin-top: -1.5rem;
+  cursor: pointer;
+  background-color: #6082b6;
+  border-radius: 12px;
+  width: 11.5rem;
+  margin-bottom: -252rem;
+  font-size: 1.5rem;
+  font-family: monospace;
+  font-weight: 500;
+}
+.weather--city-details {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-left: -2rem;
+}
+.city-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  margin: 3rem;
+}
+.city-text--header {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.9rem;
+}
+.city--text-temp {
+  margin-top: -2rem;
+  font-size: 2.4rem;
+}
+
+.weather--city-details {
+  width: 100%;
+  height: auto;
+}
+
+/* Weather Conditions */
+
+.weather-info {
+  display: flex;
+  gap: 4.5rem;
+  color: #222;
+  background-color: #b3b3d9;
+  padding: 3.2rem;
+  justify-content: center;
+  width: 80%;
+  border: none;
+  border-radius: 30px;
+  margin-left: 3rem;
+}
+.weather-conditions {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+}
+.rain {
+  font-size: 2rem;
+}
+.header-rain {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.icon-chances {
+  font-size: 3.2rem;
+}
+
+.percent {
+  margin-left: 7rem;
+}
+
+.wind {
+  font-size: 2rem;
+}
+.header-wind {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+.cloud {
+  font-size: 2rem;
+}
+.header-cloud {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+/* Forecast  */
+
+.today {
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1.5rem;
+}
+
+.hourly-forcast {
+  padding: 2rem;
+  background-color: #6082b6;
+  border: none;
+  border-radius: 18px;
+}
+
+.forecast-item {
+  padding: 10px;
+}
+
+.forecast-item img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #cfdae9;
+  margin: 8px 0;
+}
+
+.forecast-item p {
+  font-size: 1.8rem;
+}
